@@ -70,7 +70,7 @@ Este documento registra as principais funcionalidades que vão definir o comport
 
 ### Confiabilidade
 
-- **RNF06:** Valores monetários devem usar um tipo int no banco de dados armazenando a quantia em centavos exato, nunca `float` ou `double`
+- **RNF06:** Valores monetários devem ser armazenados como a quantia exata em centavos, usando `bigint` no banco de dados e `long` no Java, nunca `float` ou `double`
 - **RNF07:** Operações que alteram dados devem ser transacionais: ou salvam tudo, ou não salvam nada
 - **RNF08:** O banco deve ter backup automático diário, com a restauração testada pelo menos uma vez por mês
 
