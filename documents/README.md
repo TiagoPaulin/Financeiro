@@ -20,4 +20,9 @@ Aqui ficam o planejamento e as decisões do projeto.
 - [ADR 0011](adr/0011-money-and-dates.md): representação de dinheiro e de datas
 - [ADR 0012](adr/0012-calculated-balance.md): saldo das contas calculado na hora
 
+## Diagramas
+
+- [Contexto (C4 nível 1)](diagrams/c4-context.md): quem usa o sistema e com quais sistemas externos ele conversa
+- [Containers (C4 nível 2)](diagrams/c4-containers.md): as partes que rodam separadas (frontend, API e banco de dados) e como conversam
+
 Próximo documento: a arquitetura do sistema.
