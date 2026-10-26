@@ -25,5 +25,6 @@ Aqui ficam o planejamento e as decisões do projeto.
 - [Contexto (C4 nível 1)](diagrams/c4-context.md): quem usa o sistema e com quais sistemas externos ele conversa
 - [Containers (C4 nível 2)](diagrams/c4-containers.md): as partes que rodam separadas (frontend, API e banco de dados) e como conversam
 - [Componentes (C4 nível 3)](diagrams/c4-components.md): os módulos da API e quem depende de quem
+- [Fluxos](diagrams/flows.md): diagramas de sequência dos fluxos principais, começando por registrar um lançamento
 
 Próximo documento: a arquitetura do sistema.
