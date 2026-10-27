@@ -55,6 +55,7 @@ Na v1, tudo roda na minha máquina com um único `docker compose up` (RNF12):
 - **PostgreSQL:** na porta 5432, com os dados guardados num volume do Docker para não se perderem ao reiniciar.
 - **Mailpit:** recebe os emails na porta 1025 (SMTP) e mostra numa página na porta 8025.
 - **Frontend:** entra no Docker Compose quando for desenvolvido.
+- **Grafana (opcional):** sobe só com `docker compose --profile observability up`, com os painéis na porta 3000 (ADR 0013, ainda em proposta).
 
 As configurações e senhas vêm de variáveis de ambiente, num arquivo `.env` que não vai para o repositório (RNF05).
 
@@ -69,7 +70,7 @@ Assuntos que valem para o sistema inteiro:
 - **Dinheiro e datas:** valores em centavos, data do lançamento sem hora e UTC para data e hora (ADR 0011).
 - **Transações:** toda operação que altera dados salva tudo ou não salva nada (RNF07).
 - **Testes:** unitários, de integração com PostgreSQL de verdade (Testcontainers) e das fronteiras entre os módulos (ADR 0007).
-- **Logs e saúde:** logs estruturados com um identificador por requisição e um endpoint de health check (RNF14 e RNF15).
+- **Logs e monitoramento:** logs estruturados com um identificador por requisição, health check e métricas com os golden signals (RNF14, RNF15 e RNF18). Os dados vão por OpenTelemetry para o Grafana (ADR 0013, ainda em proposta).
 
 ## 9. Decisões de arquitetura
 

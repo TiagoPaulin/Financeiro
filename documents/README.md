@@ -20,6 +20,7 @@ Aqui ficam o planejamento e as decisões do projeto.
 - [ADR 0010](adr/0010-jwt-authentication.md): autenticação com JWT
 - [ADR 0011](adr/0011-money-and-dates.md): representação de dinheiro e de datas
 - [ADR 0012](adr/0012-calculated-balance.md): saldo das contas calculado na hora
+- [ADR 0013](adr/0013-logging-and-monitoring.md): logs e monitoramento com Grafana e OpenTelemetry (proposta)
 
 ## Diagramas
 

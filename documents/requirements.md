@@ -89,6 +89,7 @@ Este documento registra as principais funcionalidades que vão definir o comport
 
 - **RNF14:** Os logs devem ser estruturados e ter um identificador por requisição
 - **RNF15:** O sistema deve ter um endpoint de health check
+- **RNF18:** O sistema deve disponibilizar métricas de tempo de resposta, quantidade de requisições, erros e uso de recursos, e permitir consultar todos os logs de uma requisição pelo seu identificador
 
 ### Desempenho
 
