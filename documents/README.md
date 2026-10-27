@@ -4,6 +4,7 @@ Aqui ficam o planejamento e as decisões do projeto.
 
 - [Escopo](scope.md): o que o sistema vai fazer, o que entra na v1 e o que fica para depois
 - [Requisitos](requirements.md): requisitos funcionais, regras de negócio e requisitos não funcionais da v1
+- [Arquitetura](architecture.md): visão geral da arquitetura no formato arc42, com links para os diagramas e os ADRs
 
 ## Decisões de arquitetura (ADRs)
 
@@ -27,5 +28,3 @@ Aqui ficam o planejamento e as decisões do projeto.
 - [Componentes (C4 nível 3)](diagrams/c4-components.md): os módulos da API e quem depende de quem
 - [Fluxos](diagrams/flows.md): diagramas de sequência dos fluxos principais, começando por registrar um lançamento
 - [Modelo de dados (DER)](diagrams/data-model.md): as tabelas do banco, as colunas e como se relacionam
-
-Próximo documento: a arquitetura do sistema.
